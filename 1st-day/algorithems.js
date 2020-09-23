@@ -179,18 +179,26 @@
 // printInLoop(["down", "the", "rabbit", "hole"])
 
 // //ext 2
-// let pizzaLocations = [
-//     { x: 6, y: 12 },
-//     { x: 3, y: 1 },
-//     { x: 9, y: 0 },
-//     { x: 4, y: 10 }
-// ]
-
-// let homeLocation = { x: 4, y: 2 }
-
-// const findClosest = function(points,point){
+let pizzaLocations = [
+    { x: 6, y: 12 },
+    { x: 3, y: 1 },
+    { x: 9, y: 0 },
+    { x: 4, y: 10 }
+]
 
 
-// }
+let homeLocation = { x: 4, y: 2 }
+
+const findClosest = function (points, point) {
+    const selectedLocation = { x: 0, y: 0 }
+    let subX = 0
+    let suby = 0
+    for(let p in points){
+        sub 
+        if()
+    }
+
+
+}
 
 // findClosest(pizzaLocations, homeLocation) // should return {x: 3, y: 1}
